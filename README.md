@@ -1,6 +1,6 @@
-# Docker for MacによるLAMP環境(ContOS6編)の構築
+# Docker for MacによるLAMP環境の構築(ContOS6編)
 
-- Docker for MacによるLAMP環境(ContOS6編)の構築用ファイルです。
+- Docker for MacによるLAMP環境(ContOS6)の構築用ファイルです。
 - 必要最低限の設定項目で起動しています。
 
 ## 環境(バージョン)
