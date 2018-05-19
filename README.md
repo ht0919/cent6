@@ -14,11 +14,11 @@
 
 ## 操作手順(※Docker for Macを起動後に操作)
 
-- $ git clone https://github/ht0919/cent6.git
+- $ git clone https\://github/ht0919/cent6.git
 - $ cd cent6
 - $ docker-compose up -d
-- ブラウザで「http://localhost/」を開く→phpinfoの表示
-- ブラウザで「http://localhost/testdb.php」を開く→データベーステストの表示
+- ブラウザで「[http://localhost/](http://localhost/)」を開く→phpinfoの表示
+- ブラウザで「[http://localhost/testdb.php](http://localhost/testdb.php)」を開く→データベーステストの表示
 
 ## ディレクトリ構成
 
