@@ -33,7 +33,12 @@
 
 - 開始：docker-compose up -d
 - 状態：docker-compose top
-- 停止：docker-compose down
 - 接続：docker exec -it cent6_web_1 bash
+- 停止：docker-compose down
 - 一覧：docker images
 - 削除：docker rmi <イメージid>
+
+## 一括削除
+
+- コンテナの一括削除：docker ps -aq | xargs docker rm
+- イメージの一括削除：docker images -aq | xargs docker rmi
