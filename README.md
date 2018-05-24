@@ -35,8 +35,13 @@
 - 状態：docker-compose top
 - 接続：docker exec -it cent6_web_1 bash
 - 停止：docker-compose down
-- 一覧：docker images
-- 削除：docker rmi <イメージid>
+
+## コンテナとイメージの操作
+
+- コンテナの表示：docker ps -a
+- コンテナの削除：docker rm <コンテナid>
+- イメージの表示：docker images
+- イメージの削除：docker rmi <イメージid>
 
 ## 一括削除
 
